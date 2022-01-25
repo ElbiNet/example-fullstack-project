@@ -25,7 +25,6 @@ TypeScript,
 TypeORM,
 SQLite,
 JWT Auth
-
 ```
 
 API Client:
