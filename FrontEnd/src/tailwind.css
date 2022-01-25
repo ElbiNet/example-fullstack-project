@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: local("Poppins-Regular"),
+    url(./assets/fonts/Poppins/Poppins-Regular.ttf) format('truetype')
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src: local("Poppins-Bold"),
+    url(./assets/fonts/Poppins/Poppins-Bold.ttf) format('truetype')
+}
+@font-face {
+    font-family: "Poppins-Light";
+    src: local("Poppins-Light"),
+    url(./assets/fonts/Poppins/Poppins-Light.ttf) format('truetype')
+}
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: local("Poppins-SemiBold"),
+    url(./assets/fonts/Poppins/Poppins-SemiBold.ttf) format('truetype')
+}
+@font-face {
+    font-family: "Poppins-ExtraBold";
+    src: local("Poppins-ExtraBold"),
+    url(./assets/fonts/Poppins/Poppins-ExtraBold.ttf) format('truetype')
+}
+
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: local("OpenSans-Regular"),
+    url(./assets/fonts/OpenSans/OpenSans-Regular.ttf) format('truetype')
+}
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: local("OpenSans-Bold"),
+    url(./assets/fonts/OpenSans/OpenSans-Bold.ttf) format('truetype')
+}
+@font-face {
+    font-family: "OpenSans-Light";
+    src: local("OpenSans-Light"),
+    url(./assets/fonts/OpenSans/OpenSans-Light.ttf) format('truetype')
+}
+@font-face {
+    font-family: "OpenSans-SemiBold";
+    src: local("OpenSans-SemiBold"),
+    url(./assets/fonts/OpenSans/OpenSans-SemiBold.ttf) format('truetype')
+}
+@font-face {
+    font-family: "OpenSans-ExtraBold";
+    src: local("OpenSans-ExtraBold"),
+    url(./assets/fonts/OpenSans/OpenSans-ExtraBold.ttf) format('truetype')
+}
