@@ -1,14 +1,5 @@
-version: '3'
+version: '2'
 services:
-  api:
-    build:
-      context: ./BackEnd/API
-      dockerfile: DockerFile.dev
-    volumes:
-      - /app/node_modules
-      - ./BackEnd/API:/app
-    ports:
-      - "3000:3000"
   client:
     build:
       context: ./BackEnd/Client
@@ -27,3 +18,12 @@ services:
       - ./FrontEnd:/app
     ports:
       - "3002:3002"
+  api:
+    build:
+      context: ./BackEnd/API
+      dockerfile: DockerFile.dev
+    volumes:
+      - /app/node_modules
+      - ./BackEnd/API:/app
+    ports:
+      - "3000:3000"

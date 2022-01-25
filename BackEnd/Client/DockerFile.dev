@@ -1,5 +1,5 @@
 FROM node:16
-EXPOSE 3000
+EXPOSE 3001
 RUN mkdir -p /app/public /app/src
 WORKDIR /app
 COPY index.html /app/index.html
