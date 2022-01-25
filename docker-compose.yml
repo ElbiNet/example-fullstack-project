@@ -1,0 +1,29 @@
+version: '3'
+services:
+  api:
+    build:
+      context: ./BackEnd/API
+      dockerfile: DockerFile.dev
+    volumes:
+      - /app/node_modules
+      - ./BackEnd/API:/app
+    ports:
+      - "3000:3000"
+  client:
+    build:
+      context: ./BackEnd/Client
+      dockerfile: DockerFile.dev
+    volumes:
+      - /app/node_modules
+      - ./BackEnd/Client:/app
+    ports:
+      - "3001:3001"
+  frontend:
+    build:
+      context: ./FrontEnd
+      dockerfile: DockerFile.dev
+    volumes:
+      - /app/node_modules
+      - ./FrontEnd:/app
+    ports:
+      - "3002:3002"
