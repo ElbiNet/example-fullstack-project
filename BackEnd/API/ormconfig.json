@@ -1,6 +1,6 @@
 {
 	"type": "sqlite",
-	"database": "./db/ricoma.db",
+	"database": "./db/ricoma.sqlite",
 	"synchronize": true,
 	"logging": false,
 	"entities": ["src/entity/**/*.ts"],
